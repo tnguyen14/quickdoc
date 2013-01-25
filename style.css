@@ -1,4 +1,9 @@
 body {
 	width: 100%;
 	margin: 0 auto;
+    font-size: 62.5%; /* 62.5% * 16px = 10px */
+}
+/* from experimentation, a page is roughly 700px */
+.page {
+    width: 70em;
 }
