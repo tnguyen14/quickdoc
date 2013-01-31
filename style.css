@@ -2,8 +2,43 @@ body {
 	width: 100%;
 	margin: 0 auto;
     font-size: 62.5%; /* 62.5% * 16px = 10px */
+    font-family: 'Open Sans', sans-serif;
 }
 /* from experimentation, a page is roughly 700px */
 .page {
-    width: 70em;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    padding: 2rem;
+}
+.note {
+    background-color: #F7F1DC;
+}
+.note .title {
+    max-width: 60rem;
+    margin: 1rem auto;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    background-color: #f1e6c0;
+    font-family: 'Oxygen', 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+}
+.note .page {
+    background-color: white;
+    
+    background-image: -webkit-linear-gradient(#eee .1em, transparent .1em);
+	background-image: -moz-linear-gradient(#eee .1em, transparent .1em);
+	background-image: -o-linear-gradient(#eee .1em, transparent .1em);
+	background-image: -ms-linear-gradient(#eee .1em, transparent .1em);
+	background-image: linear-gradient(#eee .1em, transparent .1em);
+    
+	-webkit-background-size: 100% 1.4em;
+	-moz-background-size: 100% 1.4em;
+	background-size: 100% 1.4em;
+    
+    color: #555;
+    max-width: 60rem;
+    margin: 1rem auto;
+    border-radius: 10px;
+    border: 1px solid #7A6E43;
 }
