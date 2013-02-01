@@ -7,6 +7,7 @@ jQuery(document).ready(function ($) {
             $(this).html('');
         }
     });
+    
     $('.title').blur(function () {
         if ($(this).html() === '') {
             $(this).addClass('default');
