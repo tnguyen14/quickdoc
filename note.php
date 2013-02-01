@@ -13,7 +13,7 @@ if (file_exists( 'header.php' ) ) {
 
 <body class="note">
     <div role="main" id="main">
-        <h1 class="title" value="Note Title" contenteditable="true"></h1>
+        <h1 class="title default" contenteditable="true">Note Title</h1>
         <div class="page" contenteditable="true">
             
         </div>

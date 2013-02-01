@@ -21,7 +21,11 @@ body {
     background-color: #f1e6c0;
     font-family: 'Oxygen', 'Open Sans', sans-serif;
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 1.8rem;
+}
+.note .title.default {
+    color: #999;
+    font-style: italic;
 }
 .note .page {
     background-color: white;
